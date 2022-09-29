@@ -1,0 +1,6 @@
+[Android_Pixel 4 INFO ] 2022-09-29 15:41:11.239 ServerManagerTest:20 - starting appium server
+[Android_Pixel 4 INFO ] 2022-09-29 15:41:12.393 ServerManagerTest:29 - Appium server started
+[Android_Pixel 4 INFO ] 2022-09-29 15:41:12.422 DriverManagerTest:29 - initializing Appium driver
+[Android_Pixel 4 INFO ] 2022-09-29 15:41:12.441 PropertyManagerTest:17 - loading config properties
+[Android_Pixel 4 INFO ] 2022-09-29 15:41:12.444 CapabilitiesManagerTest:18 - getting capabilities
+[Android_Pixel 4 INFO ] 2022-09-29 15:41:12.446 CapabilitiesManagerTest:34 - appUrl is/Users/indu.nair/Documents/CucumberProject_PedsGuideApp/PedsGuide-main/src/test/resources/apps/app-release.apk

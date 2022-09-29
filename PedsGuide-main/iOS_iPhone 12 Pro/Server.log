@@ -1,0 +1,19 @@
+2022-09-14 08:35:02:608 [Appium] Welcome to Appium v1.22.3
+2022-09-14 08:35:02:609 [Appium] Non-default server args:
+2022-09-14 08:35:02:610 [Appium]   port: 5331
+2022-09-14 08:35:02:610 [Appium]   sessionOverride: true
+2022-09-14 08:35:02:611 [Appium]   logFile: /Users/indu.nair/Downloads/PedsGuide-main/iOS_iPhone 12 Pro/Server.log
+2022-09-14 08:35:02:631 [Appium] Appium REST http interface listener started on 0.0.0.0:5331
+2022-09-14 08:35:02:929 [HTTP] --> GET /wd/hub/status
+2022-09-14 08:35:02:930 [HTTP] {}
+2022-09-14 08:35:02:931 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-09-14 08:35:02:932 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-09-14 08:35:02:938 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2022-09-14 08:35:02:939 [HTTP] 
+2022-09-14 08:35:02:943 [HTTP] --> GET /wd/hub/status
+2022-09-14 08:35:02:944 [HTTP] {}
+2022-09-14 08:35:02:944 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-09-14 08:35:02:945 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-09-14 08:35:02:946 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2022-09-14 08:35:02:946 [HTTP] 
+2022-09-14 08:36:34:573 [Appium] Received SIGINT - shutting down

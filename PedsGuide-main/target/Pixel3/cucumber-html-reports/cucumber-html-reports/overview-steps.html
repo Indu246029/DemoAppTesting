@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>No Name (add projectName to cucumber-reporting.properties)</td>
+      <td>14 Sep 2022, 16:11</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">com.qa.stepdef.AboutPedsGuideStepDefTest.iClickOnIWillDoThisLaterButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="4796000000">4.796</td>
+              <td class="duration" data-value="4796000000">4.796</td>
+              <td class="duration" data-value="4796000000">4.796</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.AboutPedsGuideStepDefTest.iShouldBeOnHomePageWithTitle(java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="324333333">0.324</td>
+              <td class="duration" data-value="324333333">0.350</td>
+              <td class="duration" data-value="973000000">0.973</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28HighRiskStepDefTest.iClickOnButtonProceedToHSVRiskAssessment()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28HighRiskStepDefTest.iShouldRedirectHSVChecklistPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28HighRiskStepDefTest.thePageTitle(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2535000000">2.535</td>
+              <td class="duration" data-value="2535000000">2.535</td>
+              <td class="duration" data-value="2535000000">2.535</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.clickBack()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iClickOnButtonDiagnosticTest()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iClickOnButtonHSVLowRiskAssessment()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iClickOnButtonProceedToBacterialInfectionRiskAssessment()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iClickOnTheMenu()</td>
+              <td>1</td>
+              <td class="duration" data-value="11750000000">11.750</td>
+              <td class="duration" data-value="11750000000">11.750</td>
+              <td class="duration" data-value="11750000000">11.750</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iShouldRedirectToBacterialInfectionAssessmentPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iShouldRedirectToHSVLowRecommendationsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iShouldRedirectToTheDiagnosticTestsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.iShouldRedirectToTheMenuPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.theBacterialInfectionPageTitle(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2635000000">2.635</td>
+              <td class="duration" data-value="2635000000">2.635</td>
+              <td class="duration" data-value="2635000000">2.635</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.theDiagnosticPageTitle(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2592000000">2.592</td>
+              <td class="duration" data-value="2592000000">2.592</td>
+              <td class="duration" data-value="2592000000">2.592</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.theHsvChecklistPageTitle(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2550000000">2.550</td>
+              <td class="duration" data-value="2550000000">2.550</td>
+              <td class="duration" data-value="2550000000">2.550</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_HighInfectionStepDefTest.theHsvLowRiskPageTitle(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="2516000000">2.516</td>
+              <td class="duration" data-value="2516000000">2.516</td>
+              <td class="duration" data-value="2516000000">2.516</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.clickBackButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.clickOnBack()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iAmOnDischargeChecklist()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickCSFObtainedAsNo()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickCSFObtainedNo()</td>
+              <td>2</td>
+              <td class="duration" data-value="500000">0.000</td>
+              <td class="duration" data-value="500000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickLPPerformedAsNo()</td>
+              <td>1</td>
+              <td class="duration" data-value="11549000000">11.549</td>
+              <td class="duration" data-value="11549000000">11.549</td>
+              <td class="duration" data-value="11549000000">11.549</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickLPPerformedAsYes()</td>
+              <td>1</td>
+              <td class="duration" data-value="11613000000">11.613</td>
+              <td class="duration" data-value="11613000000">11.613</td>
+              <td class="duration" data-value="11613000000">11.613</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickLPPerformedYes()</td>
+              <td>2</td>
+              <td class="duration" data-value="11777500000">11.777</td>
+              <td class="duration" data-value="11777500000">11.882</td>
+              <td class="duration" data-value="23555000000">23.555</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickLPorCSFNo()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickLPorCSFYes()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnAdmissionRecommendationsButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnAllCheckbox()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnBack()</td>
+              <td>1</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnCSFObtainedYes()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnLPPerformedYes()</td>
+              <td>1</td>
+              <td class="duration" data-value="10736000000">10.736</td>
+              <td class="duration" data-value="10736000000">10.736</td>
+              <td class="duration" data-value="10736000000">10.736</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnLPorCSFNo()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnTheButtonLowRiskBacterialInfectionRecommendations()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickOnTheRestartGuidelineButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickPatientObservationNo()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickPatientObservationYes()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickProceedToHospitalAdmissionButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iClickSingleCheckbox()</td>
+              <td>1</td>
+              <td class="duration" data-value="11843000000">11.843</td>
+              <td class="duration" data-value="11843000000">11.843</td>
+              <td class="duration" data-value="11843000000">11.843</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iShouldDisplayRestartGuildelineButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iShouldDisplayedButtonAdmissionRecommendation()</td>
+              <td>4</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iShouldDisplayedButtonDischargeChecklist()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iShouldDisplayedButtonProceedToHospitalAdmissionButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iShouldRedirectToAdmissionRecommendationsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iShouldRedirectToProceedToHospitalAdmissionPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.iShouldRedirectToTheDispositionRecommendationsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.itShouldRedirectToAdmissionRecommendation()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.onClickDischargeChecklist()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.onClickOnButtonAdmissionRecommendation()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.Days22to28LowRisk_LowInfectionStepDefTest.onClickOnTheButtonAdmissionRecommendation()</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.DisclaimerStepDefTest.iClickOnAcceptButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="362000000">0.362</td>
+              <td class="duration" data-value="362000000">0.362</td>
+              <td class="duration" data-value="362000000">0.362</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.DisclaimerStepDefTest.iShouldBeOnAboutPedsGuidePageWithTitle(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1124000000">1.124</td>
+              <td class="duration" data-value="1124000000">1.489</td>
+              <td class="duration" data-value="2248000000">2.248</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.DisclaimerStepDefTest.iShouldSeeDisclaimerPageWithTitle(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="531000000">0.531</td>
+              <td class="duration" data-value="531000000">0.531</td>
+              <td class="duration" data-value="531000000">0.531</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.FebrileInfantStepDefTest.iClickBack()</td>
+              <td>5</td>
+              <td class="duration" data-value="200000">0.000</td>
+              <td class="duration" data-value="200000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.FebrileInfantStepDefTest.iClickOnButtonWithTitle(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="200000">0.000</td>
+              <td class="duration" data-value="200000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.FebrileInfantStepDefTest.iShouldGoBackWithPage(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.HomePageStepDefTest.iClickOnFebrileInfant()</td>
+              <td>1</td>
+              <td class="duration" data-value="947000000">0.947</td>
+              <td class="duration" data-value="947000000">0.947</td>
+              <td class="duration" data-value="947000000">0.947</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.HomePageStepDefTest.iShouldBeOnFebrileInfantPageWithTitle(java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="9585333333">9.585</td>
+              <td class="duration" data-value="9585333333">11.872</td>
+              <td class="duration" data-value="57512000000">57.512</td>
+              <td class="failed">16.67%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.HooksTest.initialize()</td>
+              <td>21</td>
+              <td class="duration" data-value="656571428">0.656</td>
+              <td class="duration" data-value="656571428">0.956</td>
+              <td class="duration" data-value="13788000000">13.788</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.HooksTest.quit(io.cucumber.java.Scenario)</td>
+              <td>21</td>
+              <td class="duration" data-value="945952380">0.945</td>
+              <td class="duration" data-value="945952380">1.913</td>
+              <td class="duration" data-value="19865000000">19.865</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.MakeCallStepDefTest.iCallToProvider(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1253500000">1.253</td>
+              <td class="duration" data-value="1253500000">1.812</td>
+              <td class="duration" data-value="2507000000">2.507</td>
+              <td class="failed">50.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.MakeCallStepDefTest.iClickCancelButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="duration" data-value="1000000">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.MakeCallStepDefTest.iClickOnCallButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="625000000">0.625</td>
+              <td class="duration" data-value="625000000">0.625</td>
+              <td class="duration" data-value="625000000">0.625</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.qa.stepdef.MakeCallStepDefTest.iShouldSeeHomePageWithTitle(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>65</td>
+            <td>131</td>
+            <td class="duration">1.511</td>
+            <td class="duration">57.512</td>
+            <td class="duration">3:18.033</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

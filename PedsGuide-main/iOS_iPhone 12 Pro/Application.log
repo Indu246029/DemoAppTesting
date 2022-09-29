@@ -1,0 +1,33 @@
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:41.680 ServerManagerTest:20 - starting appium server
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:42.769 ServerManagerTest:29 - Appium server started
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:42.797 DriverManagerTest:29 - initializing Appium driver
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:42.813 PropertyManagerTest:17 - loading config properties
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:42.817 CapabilitiesManagerTest:18 - getting capabilities
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:42.819 CapabilitiesManagerTest:42 - appUrl is/Users/indu.nair/Downloads/PedsGuide-main/src/test/resources/apps/PedsGuide.ipa
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:49.763 DriverManagerTest:41 - Driver is initialized
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:51.463 BasePageTest:127 - titleDisclaimer
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:51.593 BasePageTest:55 - press accept button
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:53.318 BasePageTest:127 - About PedsGuideAbout PedsGuide
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:53.827 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/Accept the disclaimer.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:07:55.239 BasePageTest:127 - About PedsGuideAbout PedsGuide
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:08:01.503 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/Skip AboutPedsGuide page.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:08:05.174 BasePageTest:127 - titleFebrile Infant
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:08:05.817 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/Click On Febrile Infant Menu.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:08:10.722 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/Check Call Functionality.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:08:24.289 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/check Infant appears ill Days button.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:08:36.750 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/check 0 - 7 Days button.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:08:49.053 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/check 8 - 21 Days button.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:02.992 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/check 22 - 28 Days button.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:16.623 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/check 29 - 60 Days button.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:30.574 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify on click menu 22-28 days.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:34.237 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify page title and Diagnostic Tests button click.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:38.138 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify page title and HSV Risk Assessment button click.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:41.835 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/Page title and Proceed To HSV High Low  button click.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:45.538 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/Page title and Proceed To Bacterial Infection Risk Assessment button click.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:09:49.292 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/Page title and Low Risk Bacterial Infection Recommendations button click.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:10:02.709 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify LP Performed:Yes, CSF:Yes, LPorCSF:Yes.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:10:16.243 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify LP Performed:Yes, CSF:Yes, LPorCSF:No and Patient Observation:Yes.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:10:29.816 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify Discharge Checklist Checkbox.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:10:42.108 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify LP Performed:Yes, CSF:Yes, LPorCSF:No and Patient Observation:No.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:10:55.514 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify LP Performed:Yes, CSF:No.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-09-14 16:11:08.682 VideoManagerTest:35 - video path: iOS_iPhone 12 Pro/Videos/To verify LP Performed:No.mp4

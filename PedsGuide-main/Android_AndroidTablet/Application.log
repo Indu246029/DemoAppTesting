@@ -1,0 +1,136 @@
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:15.991 ServerManagerTest:20 - starting appium server
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:18.706 ServerManagerTest:29 - Appium server started
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:18.738 DriverManagerTest:29 - initializing Appium driver
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:18.768 PropertyManagerTest:17 - loading config properties
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:18.772 CapabilitiesManagerTest:18 - getting capabilities
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:18.776 CapabilitiesManagerTest:34 - appUrl is/Users/indu.nair/Downloads/PedsGuide-main/src/test/resources/apps/app-release.apk
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:35.276 DriverManagerTest:41 - Driver is initialized
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:38.659 BasePageTest:127 - titleDisclaimer
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:39.803 BasePageTest:55 - press accept button
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:44.712 BasePageTest:127 - About PedsGuideAbout PedsGuide
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:46.088 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Accept the disclaimer.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:48.796 BasePageTest:127 - About PedsGuideAbout PedsGuide
+[Android_AndroidTablet INFO ] 2022-09-14 10:47:54.182 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Skip AboutPedsGuide page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:48:02.518 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:48:03.003 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Click On Febrile Infant Menu.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:48:04.797 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:48:08.529 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open 22 - 28 Days page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:48:21.923 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on Disclaimer tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:48:35.420 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on Diagnostic Tests tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:48:49.492 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on HSV Risk Assessment tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:49:02.769 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on High Risk Admission Recommendations tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:49:17.479 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on Low Risk Recommendations tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:49:32.644 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on Bacterial Infection Assessment tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:49:47.640 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on High Risk Recommendations tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:02.093 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on Disposition Recommendations (High Risk Bacterial) tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:14.888 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on Disposition Recommendations (Low Risk Bacterial) tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:27.944 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on Discharge Checklist tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:39.502 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/click on return to beginning menu tab.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:40.815 BasePageTest:55 - Click menu 22 to 28 Days
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:42.099 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify on click menu 22-28 days.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:45.069 BasePageTest:55 - Click on button Diagnostic Tests
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:46.327 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify page title and Diagnostic Tests button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:49.295 BasePageTest:55 - Click in button Proceed to HSV Risk Assessment
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:50.994 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify page title and HSV Risk Assessment button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:54.215 BasePageTest:55 - Click Checkbox
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:56.275 BasePageTest:55 - HSV High Risk Assessment button click
+[Android_AndroidTablet INFO ] 2022-09-14 10:50:56.901 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify Page title and Proceed To HSV High Risk Assessment button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:00.215 BasePageTest:55 - Restart Guideline button click
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:02.129 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify page title and Restart Guideline button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:03.180 BasePageTest:55 - Click menu 22 to 28 Days
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:05.087 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify on click menu 22-28 days.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:08.271 BasePageTest:55 - Click on button Diagnostic Tests
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:08.892 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify page title and Diagnostic Tests button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:13.081 BasePageTest:55 - Click in button Proceed to HSV Risk Assessment
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:14.358 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify page title and HSV Risk Assessment button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:17.369 BasePageTest:55 - Click HSV Low Risk Recommendations
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:17.954 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Page title and Proceed To HSV High Low  button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:21.289 BasePageTest:55 - Click button Proceed to Bacterial Infection Risk Assessment
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:23.320 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Page title and Proceed To Bacterial Infection Risk Assessment button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:26.459 BasePageTest:55 - Click Checkbox
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:27.259 BasePageTest:55 - High Risk Recommendations
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:29.348 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Page title and Proceed To High Risk Assessment button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:34.385 BasePageTest:55 - Disposition Recommendations button click
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:35.593 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Page title and Disposition Recommendations button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:37.295 BasePageTest:55 - Click Urinalysis Positive : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:38.308 BasePageTest:55 - Click CSF Obtained : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:40.327 BasePageTest:55 - Click LP or CSF Obtained : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:41.561 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify UrinalysisPositive:Yes, CSF:Yes and LPorCSF:Yes.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:43.346 BasePageTest:55 - Click Urinalysis Positive : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:44.357 BasePageTest:55 - Click CSF Obtained : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:45.194 BasePageTest:55 - Click LP or CSF Obtained : No
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:46.859 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify UrinalysisPositive:Yes, CSF:Yes and LPorCSF:No.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:47.650 BasePageTest:55 - Click Urinalysis Positive : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:48.791 BasePageTest:55 - Click CSF Obtained : No
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:50.565 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify UrinalysisPositive:Yes, CSF:No.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:51.930 BasePageTest:55 - Click Urinalysis Positive : No
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:53.462 BasePageTest:55 - Click CSF Obtained : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:54.793 BasePageTest:55 - Click LP or CSF Obtained : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:55.382 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify UrinalysisPositive:No, CSF:Yes and LPorCSF:Yes.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:56.579 BasePageTest:55 - Click Urinalysis Positive : No
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:57.788 BasePageTest:55 - Click CSF Obtained : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:58.742 BasePageTest:55 - Click LP or CSF Obtained : No
+[Android_AndroidTablet INFO ] 2022-09-14 10:51:59.728 BasePageTest:55 - Click Patient Observation Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:09.356 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify UrinalysisPositive:No, CSF:Yes, LPorCSF:No and Patient Observation:Yes.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:10.637 BasePageTest:55 - Click Urinalysis Positive : No
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:11.577 BasePageTest:55 - Click CSF Obtained : Yes
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:12.894 BasePageTest:55 - Click LP or CSF Obtained : No
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:13.836 BasePageTest:55 - Patient Observation No
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:14.943 BasePageTest:55 - Click Admission Recommendation button
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:16.719 BasePageTest:55 - Restart Guideline button click
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:17.938 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify UrinalysisPositive:No, CSF:Yes, LPorCSF:No and Patient Observation:No.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:18.964 BasePageTest:55 - Click menu 22 to 28 Days
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:20.233 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify on click menu 22-28 days.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:23.123 BasePageTest:55 - Click on button Diagnostic Tests
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:24.823 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify page title and Diagnostic Tests button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:28.005 BasePageTest:55 - Click in button Proceed to HSV Risk Assessment
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:29.256 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify page title and HSV Risk Assessment button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:32.197 BasePageTest:55 - Click HSV Low Risk Recommendations
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:33.511 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Page title and Proceed To HSV High Low  button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:36.912 BasePageTest:55 - Click button Proceed to Bacterial Infection Risk Assessment
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:38.884 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Page title and Proceed To Bacterial Infection Risk Assessment button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:43.975 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Page title and Low Risk Bacterial Infection Recommendations button click.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:50.200 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify LP Performed:Yes, CSF:Yes, LPorCSF:Yes.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:52:56.838 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify LP Performed:Yes, CSF:Yes, LPorCSF:No and Patient Observation:Yes.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:03.755 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify Discharge Checklist Checkbox.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:09.167 BasePageTest:55 - Click Admission Recommendation button
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:11.698 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify LP Performed:Yes, CSF:Yes, LPorCSF:No and Patient Observation:No.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:15.190 BasePageTest:55 - Click Admission Recommendation button
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:16.790 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify LP Performed:Yes, CSF:No.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:19.115 BasePageTest:55 - Click Admission Recommendation button
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:22.242 BasePageTest:55 - Restart Guideline button click
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:23.488 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/To verify LP Performed:No.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:25.407 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:29.347 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open 29 - 60 Days page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:35.788 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Diagnostic Tests page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:43.270 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open HSV Checklist and Assessment page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:51.242 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open High Risk HSV Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:53:59.768 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Admission Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:04.022 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:04.461 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Restart GuideLines.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:05.879 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:09.693 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open 29 - 60 Days page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:16.823 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Diagnostic Tests page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:23.818 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open HSV Checklist and Assessment page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:30.199 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Bacterial Infection Assessment page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:36.584 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Disposition Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:50.461 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Admission Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:54:59.448 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open High-Risk Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:05.453 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Disposition Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:16.602 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Admission Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:24.166 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:25.256 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Restart GuideLines.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:26.505 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:30.437 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open 29 - 60 Days page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:38.451 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Diagnostic Tests page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:44.791 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open HSV Checklist and Assessment page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:50.839 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Bacterial Infection Assessment page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:55:56.866 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Disposition Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:56:07.892 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Admission Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:56:18.508 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Discharge Checklist page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:56:25.980 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Admission Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:56:37.343 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Admission Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:56:48.295 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Discharge Checklist page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:56:55.313 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Open Admission Recommendations page.mp4
+[Android_AndroidTablet INFO ] 2022-09-14 10:56:59.920 BasePageTest:127 - titleFebrile Infant
+[Android_AndroidTablet INFO ] 2022-09-14 10:57:00.375 VideoManagerTest:35 - video path: Android_AndroidTablet/Videos/Restart GuideLines.mp4
